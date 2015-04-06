@@ -1,7 +1,9 @@
 
 - name: Java install
   hosts: all
-  user: root
+  user: ops
+  sudo: True
+  sudo_user: ops
   tasks:
   - name: Create java repo list
     action: shell echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main' >/etc/apt/sources.list.d/java.list
