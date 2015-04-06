@@ -1,0 +1,14 @@
+[staging]
+devops.codetestcode.io
+
+[webservers]
+codetestcode.io
+
+[ci-server]
+ci.codetestcode.io
+
+[gitserver]
+git.codetestcode.io
+
+[database]
+db.codetestcode.io
